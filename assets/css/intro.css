@@ -1,0 +1,98 @@
+.inner-banner{
+	height: 900px;
+}
+ #demos{
+ 	margin-top: 0px;
+ }
+ .banner-bg.bg-holder{
+   background-position: 0 center;
+  }
+
+  .demo-img {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.demo-img img{
+    transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.demo-img:hover img{
+	transform: translateY(-10px);
+}
+
+.demo-title {
+    position: relative;
+    padding-left: 80px;
+}
+.demo-title .bg-title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 170px;
+    line-height: 145px;
+    font-weight: 700;
+    z-index: 0;
+    color: #e7e6e80d;
+}
+.demo-title .title .text-primary a:hover,.demo-title .title .text-primary a:focus{
+    color: #ffffff;
+}
+
+.demo-title .title .line {
+    background-color: #da1d25;
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+}
+.demo-title .title h4 {
+    position: relative;
+    padding-left: 30px;
+    font-weight: 800;
+}
+.demo-title.left {
+    margin-left: 250px;
+}
+
+
+@media (max-width: 1400px){
+
+}
+
+@media (max-width: 1199px){
+
+}
+
+
+@media (max-width: 991px){
+
+	.banner {
+    height: 100%;
+    padding-bottom: 50px;
+    padding-bottom: 20px;
+		}
+
+	#demo{
+	 	margin-top: 0px;
+	 	padding-top: 80px;
+}
+.banner {
+    height: 1080px;
+}
+
+}
+
+
+@media (max-width: 767px){
+	.header{
+		background-color: #000;
+	}
+ 
+ .banner-bg {
+ 	background-image:none !important;
+ }
+
+}
